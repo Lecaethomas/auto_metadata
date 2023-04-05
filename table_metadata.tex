@@ -1,0 +1,405 @@
+\subsection*{Table: cesbio_surf_oso_incom_2021}
+\begin{tabular}{llrl}
+\hline
+ Column Name     & Data Type         &   Max Length & Nullable   \\
+\hline
+ id              & character varying &              & NO         \\
+ geom            & USER-DEFINED      &              & YES        \\
+ nom_com         & character varying &           50 & YES        \\
+ nom_com_m       & character varying &           50 & YES        \\
+ insee_com       & character varying &            5 & YES        \\
+ statut          & character varying &           24 & YES        \\
+ population      & integer           &              & YES        \\
+ insee_arr       & character varying &            2 & YES        \\
+ insee_dep       & character varying &            3 & YES        \\
+ insee_reg       & character varying &            2 & YES        \\
+ code_epci       & character varying &           20 & YES        \\
+ _count          & double precision  &              & YES        \\
+ surf_vignes_oso & integer           &              & YES        \\
+\hline
+\end{tabular}
+\subsection*{Table: cesbio_surf_oso_incvi_2021}
+\begin{tabular}{llll}
+\hline
+ Column Name           & Data Type         & Max Length   & Nullable   \\
+\hline
+ id                    & integer           &              & NO         \\
+ geom                  & USER-DEFINED      &              & YES        \\
+ code_com              & character varying &              & YES        \\
+ _count                & double precision  &              & YES        \\
+ surf_vignes_oso_incvi & integer           &              & YES        \\
+\hline
+\end{tabular}
+\subsection*{Table: clusters_com_oso_cvi_2021}
+\begin{tabular}{llll}
+\hline
+ Column Name   & Data Type        & Max Length   & Nullable   \\
+\hline
+ id            & integer          &              & YES        \\
+ code_com      & integer          &              & YES        \\
+ _count        & integer          &              & YES        \\
+ _sum          & integer          &              & YES        \\
+ _mean         & double precision &              & YES        \\
+ _median       & integer          &              & YES        \\
+ _stdev        & double precision &              & YES        \\
+ _min          & integer          &              & YES        \\
+ _max          & integer          &              & YES        \\
+ _range        & integer          &              & YES        \\
+ _minority     & integer          &              & YES        \\
+ _majority     & integer          &              & YES        \\
+ _variety      & integer          &              & YES        \\
+ _variance     & double precision &              & YES        \\
+ predicted     & integer          &              & YES        \\
+ geom          & USER-DEFINED     &              & YES        \\
+\hline
+\end{tabular}
+\subsection*{Table: cvi_d33_1_082021}
+\begin{tabular}{llll}
+\hline
+ Column Name                            & Data Type   & Max Length   & Nullable   \\
+\hline
+ Numéro de relation                     & text        &              & YES        \\
+ Libellé du type de récoltant           & text        &              & YES        \\
+ Code INSEE de la commune               & text        &              & YES        \\
+ Libellé de la commune                  & text        &              & YES        \\
+ Code du produit                        & text        &              & YES        \\
+ Code du cépage                         & text        &              & YES        \\
+ Code du porte-greffe                   & text        &              & YES        \\
+ Écart entre les pieds de vigne (en CM) & text        &              & YES        \\
+ Écart entre les rangs de vigne (en CM) & text        &              & YES        \\
+ Référence cadastrale                   & text        &              & YES        \\
+ Numéro d'ordre                         & text        &              & YES        \\
+ Superficie de la SPCV (HA)             & text        &              & YES        \\
+\hline
+\end{tabular}
+\subsection*{Table: cvi_france_082021}
+\begin{tabular}{llll}
+\hline
+ Column Name                            & Data Type   & Max Length   & Nullable   \\
+\hline
+ Numéro de relation                     & text        &              & YES        \\
+ Libellé du type de récoltant           & text        &              & YES        \\
+ Code INSEE de la commune               & text        &              & YES        \\
+ Libellé de la commune                  & text        &              & YES        \\
+ Code du produit                        & text        &              & YES        \\
+ Code du cépage                         & text        &              & YES        \\
+ Code du porte-greffe                   & text        &              & YES        \\
+ Écart entre les pieds de vigne (en CM) & text        &              & YES        \\
+ Écart entre les rangs de vigne (en CM) & text        &              & YES        \\
+ Référence cadastrale                   & text        &              & YES        \\
+ Numéro d'ordre                         & text        &              & YES        \\
+ Superficie de la SPCV (HA)             & text        &              & YES        \\
+\hline
+\end{tabular}
+\subsection*{Table: cvi_geo_33_17_51_68__ign_parcellaireexpr}
+\begin{tabular}{llrl}
+\hline
+ Column Name                            & Data Type         &   Max Length & Nullable   \\
+\hline
+ puid_geo                               & text              &              & YES        \\
+ pid                                    & integer           &              & YES        \\
+ geom                                   & USER-DEFINED      &              & YES        \\
+ IDU                                    & character varying &           14 & YES        \\
+ NUMERO                                 & character varying &            4 & YES        \\
+ FEUILLE                                & integer           &              & YES        \\
+ SECTION                                & character varying &            2 & YES        \\
+ CODE_DEP                               & character varying &            2 & YES        \\
+ NOM_COM                                & character varying &           45 & YES        \\
+ CODE_COM                               & character varying &            3 & YES        \\
+ COM_ABS                                & character varying &            3 & YES        \\
+ CODE_ARR                               & character varying &            3 & YES        \\
+ layer                                  & character varying &              & YES        \\
+ path                                   & character varying &              & YES        \\
+ id                                     & integer           &              & YES        \\
+ Numéro de relation                     & text              &              & YES        \\
+ Libellé du type de récoltant           & text              &              & YES        \\
+ Code INSEE de la commune               & text              &              & YES        \\
+ Libellé de la commune                  & text              &              & YES        \\
+ Code du produit                        & text              &              & YES        \\
+ Code du cépage                         & text              &              & YES        \\
+ Code du porte-greffe                   & text              &              & YES        \\
+ Écart entre les pieds de vigne (en CM) & text              &              & YES        \\
+ Écart entre les rangs de vigne (en CM) & text              &              & YES        \\
+ Référence cadastrale                   & text              &              & YES        \\
+ Numéro d'ordre                         & text              &              & YES        \\
+ Superficie de la SPCV (HA)             & text              &              & YES        \\
+\hline
+\end{tabular}
+\subsection*{Table: cvi_geo_33_17_51_68__ign_parcellaireexpr_com}
+\begin{tabular}{llll}
+\hline
+ Column Name   & Data Type    & Max Length   & Nullable   \\
+\hline
+ geom          & USER-DEFINED &              & YES        \\
+ code_com      & text         &              & YES        \\
+\hline
+\end{tabular}
+\subsection*{Table: cvi_geo_bdtopo_vignes_202109}
+\begin{tabular}{llll}
+\hline
+ Column Name          & Data Type        & Max Length   & Nullable   \\
+\hline
+ geom                 & USER-DEFINED     &              & YES        \\
+ insee_com            & text             &              & YES        \\
+ bdtopo_vignes_in_cvi & double precision &              & YES        \\
+\hline
+\end{tabular}
+\subsection*{Table: cvi_geo_ign_parcellaireexpr}
+\begin{tabular}{llrl}
+\hline
+ Column Name                            & Data Type         &   Max Length & Nullable   \\
+\hline
+ puid_geo                               & text              &              & YES        \\
+ id                                     & integer           &              & YES        \\
+ geom                                   & USER-DEFINED      &              & YES        \\
+ idu                                    & character varying &           14 & YES        \\
+ numero                                 & character varying &            4 & YES        \\
+ feuille                                & integer           &              & YES        \\
+ section                                & character varying &            2 & YES        \\
+ code_dep                               & character varying &            2 & YES        \\
+ nom_com                                & character varying &           45 & YES        \\
+ code_com                               & character varying &            3 & YES        \\
+ com_abs                                & character varying &            3 & YES        \\
+ code_arr                               & character varying &            3 & YES        \\
+ Numéro de relation                     & text              &              & YES        \\
+ Libellé du type de récoltant           & text              &              & YES        \\
+ Code INSEE de la commune               & text              &              & YES        \\
+ Libellé de la commune                  & text              &              & YES        \\
+ Code du produit                        & text              &              & YES        \\
+ Code du cépage                         & text              &              & YES        \\
+ Code du porte-greffe                   & text              &              & YES        \\
+ Écart entre les pieds de vigne (en CM) & text              &              & YES        \\
+ Écart entre les rangs de vigne (en CM) & text              &              & YES        \\
+ Référence cadastrale                   & text              &              & YES        \\
+ Numéro d'ordre                         & text              &              & YES        \\
+ Superficie de la SPCV (HA)             & text              &              & YES        \\
+\hline
+\end{tabular}
+\subsection*{Table: cvi_oso_2021_6_clusters}
+\begin{tabular}{llll}
+\hline
+ Column Name   & Data Type        & Max Length   & Nullable   \\
+\hline
+ id            & integer          &              & NO         \\
+ code_com      & integer          &              & YES        \\
+ _count        & integer          &              & YES        \\
+ _sum          & integer          &              & YES        \\
+ _mean         & double precision &              & YES        \\
+ _median       & integer          &              & YES        \\
+ _stdev        & double precision &              & YES        \\
+ _min          & integer          &              & YES        \\
+ _max          & integer          &              & YES        \\
+ _range        & integer          &              & YES        \\
+ _minority     & integer          &              & YES        \\
+ _majority     & integer          &              & YES        \\
+ _variety      & integer          &              & YES        \\
+ _variance     & double precision &              & YES        \\
+ predicted     & integer          &              & YES        \\
+\hline
+\end{tabular}
+\subsection*{Table: cvi_rpg_2021}
+\begin{tabular}{llrl}
+\hline
+ Column Name          & Data Type         &   Max Length & Nullable   \\
+\hline
+ rpg_in_cvi           & double precision  &              & YES        \\
+ geom                 & USER-DEFINED      &              & YES        \\
+ area_cvi_com         & double precision  &              & YES        \\
+ insee_com            & character varying &            5 & YES        \\
+ bdtopo_vignes_in_cvi & numeric           &              & YES        \\
+ rpg_in_com           & numeric           &              & YES        \\
+ oso_in_com           & numeric           &              & YES        \\
+ oso_in_cvi           & numeric           &              & YES        \\
+\hline
+\end{tabular}
+\subsection*{Table: cvi_rpg_cplt_2021}
+\begin{tabular}{llll}
+\hline
+ Column Name   & Data Type        & Max Length   & Nullable   \\
+\hline
+ code_com      & text             &              & YES        \\
+ geom          & USER-DEFINED     &              & YES        \\
+ st_area       & double precision &              & YES        \\
+\hline
+\end{tabular}
+\subsection*{Table: cvi_rpg_oso}
+\begin{tabular}{llrl}
+\hline
+ Column Name           & Data Type         &   Max Length & Nullable   \\
+\hline
+ geom                  & USER-DEFINED      &              & YES        \\
+ insee_com             & character varying &            5 & YES        \\
+ rpg_in_cvi            & double precision  &              & YES        \\
+ area_cvi_com          & double precision  &              & YES        \\
+ bdtopo_vignes_in_cvi  & numeric           &              & YES        \\
+ rpg_in_com            & numeric           &              & YES        \\
+ oso_in_com            & numeric           &              & YES        \\
+ surf_vignes_oso_incvi & integer           &              & YES        \\
+\hline
+\end{tabular}
+\subsection*{Table: cvi_rpg_oso_2021_export}
+\begin{tabular}{llrl}
+\hline
+ Column Name           & Data Type         &   Max Length & Nullable   \\
+\hline
+ geom                  & USER-DEFINED      &              & YES        \\
+ insee_com             & character varying &            5 & YES        \\
+ rpg_in_cvi            & double precision  &              & YES        \\
+ area_cvi_com          & double precision  &              & YES        \\
+ bdtopo_vignes_in_cvi  & numeric           &              & YES        \\
+ rpg_in_com            & numeric           &              & YES        \\
+ oso_in_com            & numeric           &              & YES        \\
+ surf_vignes_oso_incvi & integer           &              & YES        \\
+\hline
+\end{tabular}
+\subsection*{Table: etalab_parcelles_D33_022021}
+\begin{tabular}{llrl}
+\hline
+ Column Name   & Data Type         &   Max Length & Nullable   \\
+\hline
+ id            & character varying &              & NO         \\
+ geom          & USER-DEFINED      &              & YES        \\
+ commune       & character varying &            5 & YES        \\
+ prefixe       & character varying &            3 & YES        \\
+ section       & character varying &            2 & YES        \\
+ numero        & character varying &            4 & YES        \\
+ contenance    & bigint            &              & YES        \\
+ created       & date              &              & YES        \\
+ updated       & date              &              & YES        \\
+\hline
+\end{tabular}
+\subsection*{Table: ign_bdtopo_vignes_202109}
+\begin{tabular}{llrl}
+\hline
+ Column Name   & Data Type         &   Max Length & Nullable   \\
+\hline
+ id            & integer           &              & NO         \\
+ geom          & USER-DEFINED      &              & YES        \\
+ ID            & character varying &           24 & YES        \\
+ NATURE        & character varying &           28 & YES        \\
+ DATE_CREAT    & character varying &           19 & YES        \\
+ DATE_MAJ      & character varying &           19 & YES        \\
+ DATE_APP      & date              &              & YES        \\
+ DATE_CONF     & date              &              & YES        \\
+ PREC_PLANI    & double precision  &              & YES        \\
+ SOURCE        & character varying &          127 & YES        \\
+ ID_SOURCE     & character varying &          254 & YES        \\
+ layer         & character varying &              & YES        \\
+ path          & character varying &              & YES        \\
+\hline
+\end{tabular}
+\subsection*{Table: ign_communes_202001}
+\begin{tabular}{llrl}
+\hline
+ Column Name   & Data Type         &   Max Length & Nullable   \\
+\hline
+ id            & character varying &              & NO         \\
+ geom          & USER-DEFINED      &              & YES        \\
+ nom_com       & character varying &           50 & YES        \\
+ nom_com_m     & character varying &           50 & YES        \\
+ insee_com     & character varying &            5 & YES        \\
+ statut        & character varying &           24 & YES        \\
+ population    & integer           &              & YES        \\
+ insee_arr     & character varying &            2 & YES        \\
+ insee_dep     & character varying &            3 & YES        \\
+ insee_reg     & character varying &            2 & YES        \\
+ code_epci     & character varying &           20 & YES        \\
+\hline
+\end{tabular}
+\subsection*{Table: ign_parcellaire_express_d33_17_51_68_202107}
+\begin{tabular}{llrl}
+\hline
+ Column Name   & Data Type         &   Max Length & Nullable   \\
+\hline
+ pid           & integer           &              & NO         \\
+ geom          & USER-DEFINED      &              & YES        \\
+ IDU           & character varying &           14 & YES        \\
+ NUMERO        & character varying &            4 & YES        \\
+ FEUILLE       & integer           &              & YES        \\
+ SECTION       & character varying &            2 & YES        \\
+ CODE_DEP      & character varying &            2 & YES        \\
+ NOM_COM       & character varying &           45 & YES        \\
+ CODE_COM      & character varying &            3 & YES        \\
+ COM_ABS       & character varying &            3 & YES        \\
+ CODE_ARR      & character varying &            3 & YES        \\
+ layer         & character varying &              & YES        \\
+ path          & character varying &              & YES        \\
+ id            & integer           &              & YES        \\
+\hline
+\end{tabular}
+\subsection*{Table: ign_parcellaire_express_d33_202107}
+\begin{tabular}{llrl}
+\hline
+ Column Name   & Data Type         &   Max Length & Nullable   \\
+\hline
+ id            & integer           &              & NO         \\
+ geom          & USER-DEFINED      &              & YES        \\
+ idu           & character varying &           14 & YES        \\
+ numero        & character varying &            4 & YES        \\
+ feuille       & integer           &              & YES        \\
+ section       & character varying &            2 & YES        \\
+ code_dep      & character varying &            2 & YES        \\
+ nom_com       & character varying &           45 & YES        \\
+ code_com      & character varying &            3 & YES        \\
+ com_abs       & character varying &            3 & YES        \\
+ code_arr      & character varying &            3 & YES        \\
+\hline
+\end{tabular}
+\subsection*{Table: ign_rpg_r75_44_2021}
+\begin{tabular}{llrl}
+\hline
+ Column Name   & Data Type         &   Max Length & Nullable   \\
+\hline
+ pid           & integer           &              & NO         \\
+ geom          & USER-DEFINED      &              & YES        \\
+ id            & integer           &              & YES        \\
+ id_parcel     & character varying &           10 & YES        \\
+ surf_parc     & double precision  &              & YES        \\
+ code_cultu    & character varying &            3 & YES        \\
+ code_group    & character varying &            2 & YES        \\
+ culture_d1    & character varying &            3 & YES        \\
+ culture_d2    & character varying &            3 & YES        \\
+ layer         & character varying &              & YES        \\
+ path          & character varying &              & YES        \\
+\hline
+\end{tabular}
+\subsection*{Table: odr_rpg_cplt_17_33_51_68_2020}
+\begin{tabular}{llrl}
+\hline
+ Column Name   & Data Type         &   Max Length & Nullable   \\
+\hline
+ id            & integer           &              & NO         \\
+ geom          & USER-DEFINED      &              & YES        \\
+ id_parc       & character varying &           24 & YES        \\
+ surf_ha       & double precision  &              & YES        \\
+ surf_m2       & double precision  &              & YES        \\
+ culture       & character varying &           20 & YES        \\
+ gc_rpg        & character varying &            6 & YES        \\
+ proba         & character varying &            5 & YES        \\
+ com_insee     & character varying &            9 & YES        \\
+ code_pra      & character varying &            8 & YES        \\
+ rpg19_gpe     & character varying &            9 & YES        \\
+ rpg19_cult    & character varying &           10 & YES        \\
+ rpg18_gpe     & character varying &            9 & YES        \\
+ rpg18_cult    & character varying &           10 & YES        \\
+ rpg17_gpe     & character varying &            9 & YES        \\
+ rpg17_cult    & character varying &           10 & YES        \\
+ rpg17_gp_1    & character varying &            9 & YES        \\
+ rpg17_cu_1    & character varying &           10 & YES        \\
+ rpg15_gpe     & character varying &            9 & YES        \\
+ rpg15_cult    & character varying &           10 & YES        \\
+ rpg16_gpe     & character varying &            9 & YES        \\
+ rpg16_cult    & character varying &           10 & YES        \\
+ layer         & character varying &              & YES        \\
+ path          & character varying &              & YES        \\
+\hline
+\end{tabular}
+\subsection*{Table: temp_rpg_com_vignes_2021}
+\begin{tabular}{llrl}
+\hline
+ Column Name   & Data Type         &   Max Length & Nullable   \\
+\hline
+ st_area       & double precision  &              & YES        \\
+ insee_com     & character varying &            5 & YES        \\
+\hline
+\end{tabular}

@@ -1,0 +1,4 @@
+PWD c:\_DEV\test\metadata
+INPUT C:\Users\tlecae\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\_DEV\test\metadata\table_metadata.tex
+OUTPUT table_metadata.log
